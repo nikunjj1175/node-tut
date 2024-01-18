@@ -1,19 +1,25 @@
 {
   "name": "node-tut",
   "version": "1.0.0",
-  "description": "a basic code",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "no"
   },
-  "author": "nikunj korat",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "colors": "^1.4.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "mongodb": "^3.6.6",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.2",
+    "simple-node-logger": "^21.8.12"
   }
 }
